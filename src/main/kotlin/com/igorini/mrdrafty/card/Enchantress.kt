@@ -7,5 +7,5 @@ class Enchantress : Card() {
     override fun color() = CardColor.GREEN
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 140.0
+    override fun baseScore() = 142.0
 }

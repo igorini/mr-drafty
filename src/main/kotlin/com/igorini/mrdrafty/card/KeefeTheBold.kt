@@ -7,5 +7,5 @@ class KeefeTheBold : Card() {
     override fun color() = CardColor.RED
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.BASIC
-    override fun baseScore() = 92.0
+    override fun baseScore() = 87.0
 }

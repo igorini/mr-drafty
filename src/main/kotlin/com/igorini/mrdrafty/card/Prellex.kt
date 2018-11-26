@@ -7,5 +7,5 @@ class Prellex : Card() {
     override fun color() = CardColor.BLUE
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 107.2
+    override fun baseScore() = 105.5
 }

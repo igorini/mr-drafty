@@ -7,5 +7,5 @@ class Beastmaster : Card() {
     override fun color() = CardColor.RED
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 111.6
+    override fun baseScore() = 111.9
 }

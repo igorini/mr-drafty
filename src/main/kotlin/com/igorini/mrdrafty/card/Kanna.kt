@@ -7,5 +7,5 @@ class Kanna : Card() {
     override fun color() = CardColor.BLUE
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 150.0
+    override fun baseScore() = 170.0
 }

@@ -7,5 +7,5 @@ class Pugna : Card() {
     override fun color() = CardColor.RED
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 68.0
+    override fun baseScore() = 66.0
 }

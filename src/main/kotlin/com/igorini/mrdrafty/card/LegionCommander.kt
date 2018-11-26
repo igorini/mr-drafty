@@ -7,5 +7,5 @@ class LegionCommander : Card() {
     override fun color() = CardColor.RED
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 192.0
+    override fun baseScore() = 190.0
 }

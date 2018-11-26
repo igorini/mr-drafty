@@ -7,5 +7,5 @@ class WinterWyvern : Card() {
     override fun color() = CardColor.BLACK
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 109.6
+    override fun baseScore() = 108.6
 }

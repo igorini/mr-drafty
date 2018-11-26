@@ -7,5 +7,5 @@ class CrystalMaiden : Card() {
     override fun color() = CardColor.BLUE
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 50.0
+    override fun baseScore() = 51.0
 }

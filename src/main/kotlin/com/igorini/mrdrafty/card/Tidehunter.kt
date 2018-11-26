@@ -7,5 +7,5 @@ class Tidehunter : Card() {
     override fun color() = CardColor.RED
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 71.6
+    override fun baseScore() = 68.6
 }

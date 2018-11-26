@@ -7,5 +7,5 @@ class Venomancer : Card() {
     override fun color() = CardColor.BLUE
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 103.5
+    override fun baseScore() = 106.5
 }

@@ -7,5 +7,5 @@ class Lich : Card() {
     override fun color() = CardColor.BLACK
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 212.0
+    override fun baseScore() = 210.0
 }

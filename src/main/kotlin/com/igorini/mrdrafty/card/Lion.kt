@@ -7,5 +7,5 @@ class Lion : Card() {
     override fun color() = CardColor.BLACK
     override fun type() = CardType.HERO
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 58.0
+    override fun baseScore() = 56.0
 }
