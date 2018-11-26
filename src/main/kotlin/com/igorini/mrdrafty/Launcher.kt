@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
     println("BLACK: ${medianScore(rareHeroes.filter { it.color() == CardColor.BLACK })}")
     println("GREEN: ${medianScore(rareHeroes.filter { it.color() == CardColor.GREEN })}")
     println("BLUE: ${medianScore(rareHeroes.filter { it.color() == CardColor.BLUE })}")
+    println("ALL: ${medianScore(rareHeroes)}")
 
     println()
     println("---[MEDIAN UNCOMMON HERO]---")
@@ -20,6 +21,7 @@ fun main(args: Array<String>) {
     println("BLACK: ${medianScore(uncommonHeroes.filter { it.color() == CardColor.BLACK })}")
     println("GREEN: ${medianScore(uncommonHeroes.filter { it.color() == CardColor.GREEN })}")
     println("BLUE: ${medianScore(uncommonHeroes.filter { it.color() == CardColor.BLUE })}")
+    println("ALL: ${medianScore(uncommonHeroes)}")
 
     println()
     println("---[MEDIAN COMMON HERO]---")
@@ -28,8 +30,30 @@ fun main(args: Array<String>) {
     println("BLACK: ${medianScore(commonHeroes.filter { it.color() == CardColor.BLACK })}")
     println("GREEN: ${medianScore(commonHeroes.filter { it.color() == CardColor.GREEN })}")
     println("BLUE: ${medianScore(commonHeroes.filter { it.color() == CardColor.BLUE })}")
+    println("ALL: ${medianScore(commonHeroes)}")
 
     val mainDeckTypes = listOf(CardType.IMPROVEMENT, CardType.CREEP, CardType.SPELL)
+
+    println()
+    println("---[ALL COLORS MAIN]---")
+    val allMain = allCards.filter { mainDeckTypes.contains(it.type()) }
+    // 0.878 main rare cards per pack
+    val allMainRare = allMain.filter { it.rarity() == CardRarity.RARE }
+    println("RARE 50%: ${medianScore(allMainRare)}")
+    println("-----")
+    // 2.423 main uncommon per pack
+    val allMainUncommon = allMain.filter { it.rarity() == CardRarity.UNCOMMON }
+    println("UNCOMMON 33.33%: ${medianScore(allMainUncommon, 33.33)}")
+    println("UNCOMMON 66.66%: ${medianScore(allMainUncommon, 66.66)}")
+    println("-----")
+    // 5.700 main common per pack
+    val allMainCommon = allMain.filter { it.rarity() == CardRarity.COMMON }
+    println("COMMON 14.29%: ${medianScore(allMainCommon, 14.29)}")
+    println("COMMON 28.57%: ${medianScore(allMainCommon, 28.57)}")
+    println("COMMON 42.86%: ${medianScore(allMainCommon, 42.86)}")
+    println("COMMON 57.14%: ${medianScore(allMainCommon, 57.14)}")
+    println("COMMON 71.43%: ${medianScore(allMainCommon, 71.43)}")
+    println("COMMON 85.71%: ${medianScore(allMainCommon, 85.71)}")
 
     println()
     println("---[RED MAIN]---")
