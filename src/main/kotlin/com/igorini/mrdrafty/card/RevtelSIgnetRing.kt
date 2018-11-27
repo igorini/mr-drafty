@@ -7,5 +7,5 @@ class RevtelSignetRing : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 106.9
+    override fun baseScore() = 105.9
 }
