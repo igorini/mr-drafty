@@ -7,5 +7,5 @@ class SeraphimShield : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 91.4
+    override fun baseScore() = 88.2
 }

@@ -7,5 +7,5 @@ class TravelersCloak : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.BASIC
-    override fun baseScore() = 108.6
+    override fun baseScore() = 106.8
 }

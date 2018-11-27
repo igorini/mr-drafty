@@ -7,5 +7,5 @@ class PoachingKnife : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 88.7
+    override fun baseScore() = 82.9
 }

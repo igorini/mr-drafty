@@ -7,5 +7,5 @@ class ShieldOfBasilius : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 95.7
+    override fun baseScore() = 93.1
 }

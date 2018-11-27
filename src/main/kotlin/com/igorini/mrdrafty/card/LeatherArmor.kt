@@ -7,5 +7,5 @@ class LeatherArmor : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.BASIC
-    override fun baseScore() = 89.5
+    override fun baseScore() = 84.9
 }

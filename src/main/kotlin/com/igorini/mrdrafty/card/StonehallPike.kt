@@ -7,5 +7,5 @@ class StonehallPike : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 82.2
+    override fun baseScore() = 84.1
 }

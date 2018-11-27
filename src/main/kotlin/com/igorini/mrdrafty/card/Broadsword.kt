@@ -7,5 +7,5 @@ class Broadsword : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 73.0
+    override fun baseScore() = 80.7
 }

@@ -7,5 +7,5 @@ class DemagickingMaul : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 97.2
+    override fun baseScore() = 97.5
 }

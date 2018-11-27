@@ -7,5 +7,5 @@ class ShieldOfAquila : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.RARE
-    override fun baseScore() = 98.0
+    override fun baseScore() = 93.7
 }

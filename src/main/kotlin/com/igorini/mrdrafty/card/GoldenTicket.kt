@@ -7,5 +7,5 @@ class GoldenTicket : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 95.6
+    override fun baseScore() = 93.9
 }

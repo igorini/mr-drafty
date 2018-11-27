@@ -7,5 +7,5 @@ class KeenfolkMusket : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.COMMON
-    override fun baseScore() = 95.0
+    override fun baseScore() = 94.5
 }

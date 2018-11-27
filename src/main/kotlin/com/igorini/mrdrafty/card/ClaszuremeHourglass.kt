@@ -7,5 +7,5 @@ class ClaszuremeHourglass : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 102.5
+    override fun baseScore() = 102.9
 }

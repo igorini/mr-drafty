@@ -7,5 +7,5 @@ class AssassinsVeil : Card() {
     override fun color() = CardColor.NONE
     override fun type() = CardType.ITEM
     override fun rarity() = CardRarity.UNCOMMON
-    override fun baseScore() = 95.1
+    override fun baseScore() = 91.0
 }
